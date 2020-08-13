@@ -8,6 +8,8 @@
 
 #include <LASERWAR.h>
 
+extern TIM_HandleTypeDef htim15;
+
 void readbit(uint8_t hex){
 for(uint8_t i=0;i<8;i++)
 	    {
@@ -28,15 +30,16 @@ for(uint8_t i=0;i<8;i++)
 	      }}
 }
 void send_1(){
-	uint32_t current_time_uS = 0;
-	if (flag & !end){
-HAL_Delay(1);
+	//uint32_t current_time_uS = 0;
+	if(!end){
+	HAL_TIM_Base_Stop_IT(&htim15);
 			HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 			HAL_TIM_Base_Start_IT(&htim1);
 			flag = 0;
 			clean_tick();
-
 	}
+
+
 }
 
 void send_0() {
@@ -45,6 +48,7 @@ void send_0() {
 	if(pulse_counter >= BUFF[n]){
 	HAL_TIM_PWM_Stop(&htim3, TIM_CHANNEL_1);
 	HAL_TIM_Base_Stop_IT(&htim1);
+	HAL_TIM_Base_Start_IT(&htim15);
 	flag = 1;
 	n++;
 	clean_tick();
@@ -63,11 +67,8 @@ void send_hex(uint8_t hex){
 
 	readbit(hex);
 	if (!start){
-	  HAL_TIM_Base_Start_IT(&htim1);
-	  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+		send_1();
 	}
-	if (!start_pack)
-	send_1();
 
 
 }

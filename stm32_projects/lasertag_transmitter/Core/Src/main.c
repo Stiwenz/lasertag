@@ -98,7 +98,7 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM15_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim15);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,17 +112,17 @@ int main(void)
 	  	  	  	if (lastButton == 1 && currentButton == 0)
 	  	  	  	{
 	  	  	  		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-	  	  	  		pressed = 1;
+	  	  	  	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, SET); // current source soft on
+	  	  	start_radiation();
+	  	  	  	send_hex(0x15);
 
 	  	  	  	}
-	  	  	  	else pressed = 0;
-	  	  	  	lastButton = currentButton;
-	  if (pressed)
-	 	  {
-		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, SET); // current source soft on
-		  start_radiation();
-	 	  }
-	  send_hex(0x15);
+	  	  	lastButton = currentButton;
+	  	  	  	//HAL_Delay(10);
+	  	  	  	//else pressed = 0;
+
+
+
 
 
 
@@ -368,7 +368,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
         if(htim->Instance == TIM15) //check if the interrupt comes from TIM15
         {
-                HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
+               send_1();
         }
 }
 
