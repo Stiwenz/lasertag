@@ -33,7 +33,6 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "LASERWAR.h"
-#include "get_us.h"
 
 /* USER CODE END Includes */
 

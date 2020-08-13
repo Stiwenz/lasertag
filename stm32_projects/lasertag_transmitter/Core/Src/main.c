@@ -46,7 +46,7 @@ TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim15;
 
 /* USER CODE BEGIN PV */
-uint8_t start_pack = 1;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -61,9 +61,7 @@ static void MX_TIM15_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t flag = 0;
 uint8_t lastButton = 1;
-uint8_t pressed = 1;
 /* USER CODE END 0 */
 
 /**
@@ -111,15 +109,13 @@ int main(void)
 	  uint8_t currentButton = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
 	  	  	  	if (lastButton == 1 && currentButton == 0)
 	  	  	  	{
-	  	  	  		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-	  	  	  	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, SET); // current source soft on
-	  	  	start_radiation();
+//	  	  	  		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
 	  	  	  	send_hex(0x15);
 
 	  	  	  	}
 	  	  	lastButton = currentButton;
-	  	  	  	//HAL_Delay(10);
-	  	  	  	//else pressed = 0;
+
+
 
 
 
@@ -299,7 +295,7 @@ static void MX_TIM15_Init(void)
   htim15.Init.Period = 9599;
   htim15.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim15.Init.RepetitionCounter = 0;
-  htim15.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  htim15.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
   if (HAL_TIM_Base_Init(&htim15) != HAL_OK)
   {
     Error_Handler();
@@ -364,13 +360,7 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-        if(htim->Instance == TIM15) //check if the interrupt comes from TIM15
-        {
-               send_1();
-        }
-}
+
 
 
 /* USER CODE END 4 */

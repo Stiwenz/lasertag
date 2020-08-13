@@ -23,17 +23,8 @@
 
 
 // variables
-extern TIM_HandleTypeDef htim1;
-extern TIM_HandleTypeDef htim3;
-uint8_t end;
-uint32_t pulse_counter;
-uint8_t flag;
-extern uint16_t BUFF[9];
-uint8_t n;
-uint16_t BUFF[9];
-uint8_t hex;
- uint8_t start;
-extern uint8_t start_pack;
+
+
 //
 
 void readbit(uint8_t hex);
