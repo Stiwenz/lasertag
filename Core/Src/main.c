@@ -45,7 +45,7 @@ TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
-uint8_t lastButton = 1;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -59,7 +59,7 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint8_t lastButton = 1;
 /* USER CODE END 0 */
 
 /**
@@ -100,17 +100,25 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  uint8_t currentButton = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
-		  	  	  	if (lastButton == 1 && currentButton == 0)
-		  	  	  	{
-		  	  	  	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-		  	  	  	send_hex(0x15);
-
-		  	  	  	}
-		  	  	lastButton = currentButton;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  uint8_t currentButton = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
+	  	  	  	if (lastButton == 1 && currentButton == 0)
+	  	  	  	{
+	  	  	  	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+	  	  	  	send_hex(0x15);
+
+	  	  	  	}
+	  	  	lastButton = currentButton;
+
+
+
+
+
+
+
+
   }
   /* USER CODE END 3 */
 }
@@ -288,6 +296,9 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+
+
 
 /* USER CODE END 4 */
 

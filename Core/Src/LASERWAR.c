@@ -13,18 +13,18 @@ uint8_t hex;
 uint8_t time;
 uint8_t pause;
 uint8_t current_time;
-uint8_t BUFF[32];
-// uint8_t bits_number__;
+uint8_t BUFF[9];
 /////////
 
 extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim3;
 
 void readbit(uint8_t hex) {
+	extern bit_number;
 	BUFF[0] = HEADER;
-	for (uint8_t i = 0; i < 8; i++) {
+	for (uint8_t i = 0; i < bit_number; i++) {
 
-		if (BitIsSet(hex,(7-i)) == 1)
+		if (BitIsSet(hex,(bit_number-1-i)) == 1)
 
 		{
 
@@ -40,7 +40,7 @@ void readbit(uint8_t hex) {
 	}
 }
 
-void send_hex(uint8_t hex) {
+void send_hex(uint8_t hex, uint8_t bit_number) {
 	readbit(hex);
 	HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
 	HAL_TIM_Base_Start_IT(&htim1);
@@ -49,8 +49,7 @@ void send_hex(uint8_t hex) {
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-
-	if (htim->Instance == TIM1) //check if the interrupt comes from TIM1
+	if (htim->Instance == TIM1) //check if the interrupt comes from TIM15
 	{
 
 		current_time++;
