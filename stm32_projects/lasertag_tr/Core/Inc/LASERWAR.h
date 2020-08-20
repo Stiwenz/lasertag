@@ -20,9 +20,20 @@
 #define TIME_STOP 6
 // -------------
 
+typedef struct {
+	TIM_HandleTypeDef *pwm;
+	TIM_HandleTypeDef *time_counter;
+	uint32_t tim_channel;
+	TIM_TypeDef *tim_instance;
+	uint8_t bits_number;
+} Laser;
 
+void Laser_Init(Laser *_str, TIM_HandleTypeDef *_time_counter,
+		TIM_HandleTypeDef *_pwm, uint32_t _tim_channel,
+		TIM_TypeDef *_tim_instance);
 
+void time_counter(Laser *_str); // put this function in HAL_TIM_PeriodElapsedCallback
+void readbit(uint8_t hex, Laser *_str);
+void send_hex(uint8_t hex, uint8_t _bits_number, Laser *_str);
 
-void readbit(uint8_t hex);
-void send_hex(uint8_t hex);
 #endif /* INC_READIT_H_ */
