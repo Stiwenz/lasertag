@@ -1,0 +1,4 @@
+LASERWAR.c:24:6:readbit	24	static
+LASERWAR.c:43:6:send_hex	16	static
+LASERWAR.c:52:6:time_counter	16	static
+LASERWAR.c:84:6:Laser_Init	24	static

@@ -44,9 +44,7 @@
 TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
-uint16_t BUFF[8];
-uint8_t value;
-
+laserwar irRX;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -75,7 +73,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+   HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -92,8 +90,7 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_1);
-  HAL_TIM_IC_Start_IT(&htim3, TIM_CHANNEL_2);
+  Laser_Init(&irRX, &htim3, TIM_CHANNEL_1, TIM_CHANNEL_2, TIM3);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -102,7 +99,9 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-	 uint8_t result = value;
+
+	 uint32_t result = irRX.value;
+
 
     /* USER CODE BEGIN 3 */
 
@@ -216,10 +215,12 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim); // rколбек по захвату
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
+//	if (htim->Instance == TIM3){
+//uint8_t a = 0;
 
-
-
+	interrupt(&irRX,htim);
+}
 
 /* USER CODE END 4 */
 
