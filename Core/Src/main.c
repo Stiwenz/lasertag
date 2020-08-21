@@ -70,7 +70,6 @@ static void MX_TIM1_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -94,7 +93,8 @@ int main(void)
   MX_TIM3_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
-  Laser_Init(&irTX, &htim1, &htim3, TIM_CHANNEL_1, TIM1);
+  Laser_Init(&irTX, &htim1, &htim3, TIM_CHANNEL_1, TIM1, 12, 6, 24, 6);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,7 +103,7 @@ int main(void)
 		uint8_t currentButton = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
 		if (lastButton == 1 && currentButton == 0) {
 			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-			send_hex(0x15, 7, &irTX);
+			send_hex(0x1501C201, 32, &irTX);
 
 		}
 		lastButton = currentButton;
@@ -288,7 +288,7 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-time_counter(&irTX);
+time_counter(&irTX, htim);
 }
 /* USER CODE END 4 */
 

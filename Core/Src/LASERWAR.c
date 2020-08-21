@@ -8,72 +8,68 @@
 #include <LASERWAR.h>
 
 // variables
-uint8_t n;
-uint8_t hex;
-uint8_t time;
-uint8_t pause;
-uint8_t current_time;
-uint8_t BUFF[32];
+
 //Laser *_str;
 
 /////////
 
-extern TIM_HandleTypeDef htim1;
-extern TIM_HandleTypeDef htim3;
 
-void readbit(uint8_t hex, Laser *_str) {
-	BUFF[0] = HEADER;
+void readbit( Laser *_str) {
+	_str->BUFF[0] = _str->time_header;
 	for (uint8_t i = 0; i < _str->bits_number; i++) {
 
-		if (BitIsSet(hex,(_str->bits_number-i-1)) == 1)
+		if (BitIsSet(_str->hex,(_str->bits_number-i-1)) == 1)
 
 		{
-			BUFF[i + 1] = HIGH;
+			_str->BUFF[i + 1] = _str->time_high;
 
 		} else
 
 		{
 
-			BUFF[i + 1] = LOW;
+			_str->BUFF[i + 1] = _str->time_low;
 
 		}
 	}
 }
 
-void send_hex(uint8_t hex, uint8_t _bits_number, Laser *_str) {
+void send_hex(uint32_t hex, uint8_t _bits_number, Laser *_str) {
+	_str->hex = hex;
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, SET);  // comment it if you use another board
 	_str->bits_number = _bits_number;
-	readbit(hex, _str);
+	readbit(_str);
 	HAL_TIM_PWM_Start(_str->pwm, _str->tim_channel);
 	HAL_TIM_Base_Start_IT(_str->time_counter);
-	time = BUFF[0];
-	pause = 1;
+	_str->time = _str->BUFF[0];
+	_str->pause = 1;
 }
 
-void time_counter(Laser *_str) {
-	if (_str->time_counter->Instance == _str->tim_instance) //check if the interrupt comes from TIM1
+void time_counter(Laser *_str, TIM_HandleTypeDef *htim) {
+	if (htim->Instance == _str->tim_instance) //check if the interrupt comes from TIM1
 			{
 
-		current_time++;
-		if (current_time == time) {
-			if (pause) {
+		_str->current_time++;
+		if (_str->current_time == _str->time) {
+			if (_str->pause) {
 				HAL_TIM_PWM_Stop(_str->pwm, _str->tim_channel);
-				time = TIME_STOP;
-				pause = 0;
-				current_time = 0;
+				_str->time = _str->time_stop;
+				_str->pause = 0;
+				_str->current_time = 0;
 
 			}
 
 			else {
-				n++;
-				if (n > _str->bits_number) {
+				_str->n++;
+				if (_str->n > _str->bits_number) {
+					HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, RESET); // comment it if you use another board
 					HAL_TIM_PWM_Stop(_str->pwm, _str->tim_channel);
-					n = 0;
+					_str->n = 0;
 					HAL_TIM_Base_Stop_IT(_str->time_counter);
 				} else
 					HAL_TIM_PWM_Start(_str->pwm, _str->tim_channel);
-				time = BUFF[n];
-				pause = 1;
-				current_time = 0;
+				_str->time = _str->BUFF[_str->n];
+				_str->pause = 1;
+				_str->current_time = 0;
 
 			}
 		}
@@ -83,11 +79,15 @@ void time_counter(Laser *_str) {
 
 void Laser_Init(Laser *_str, TIM_HandleTypeDef *_time_counter,
 		TIM_HandleTypeDef *_pwm, uint32_t _tim_channel,
-		TIM_TypeDef *_tim_instance) {
+		TIM_TypeDef *_tim_instance, uint8_t _time_high, uint8_t _time_low,
+		uint8_t _time_header, uint8_t _time_stop) {
 	_str->tim_instance = _tim_instance;
 	_str->pwm = _pwm;
 	_str->tim_channel = _tim_channel;
 	_str->time_counter = _time_counter;
+	_str->time_high = _time_high;
+	_str->time_low = _time_low;
+	_str->time_header = _time_header;
+	_str->time_stop = _time_stop;
 
 }
-
