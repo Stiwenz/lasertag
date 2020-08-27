@@ -1,3 +1,5 @@
-LASERWAR_receiver.c:11:6:interrupt	24	static
-LASERWAR_receiver.c:37:9:read_hex	24	static
-LASERWAR_receiver.c:51:6:Laser_Init	24	static
+LASERWAR_receiver.c:11:6:interrupt	16	static,ignoring_inline_asm
+LASERWAR_receiver.c:36:10:read_hex	24	static
+LASERWAR_receiver.c:50:6:Laser_Init	24	static
+LASERWAR_receiver.c:67:6:pack_ended	24	static
+LASERWAR_receiver.c:77:9:channel_init	16	static
