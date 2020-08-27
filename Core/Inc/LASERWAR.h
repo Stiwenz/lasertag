@@ -23,6 +23,7 @@ typedef struct {
 	TIM_HandleTypeDef *time_counter;
 	uint32_t tim_channel;
 	TIM_TypeDef *tim_instance;
+	uint8_t flag;
 	uint8_t bits_number;
 	uint8_t n;
 	uint32_t hex;
@@ -30,10 +31,11 @@ typedef struct {
 	uint8_t pause;
 	uint8_t current_time;
 	uint8_t BUFF[32];
-	uint8_t time_high; // 100 uS - is 1 timer period
+	uint8_t time_high;
 	uint8_t time_low;
 	uint8_t time_header;
 	uint8_t time_stop;
+	uint8_t started;
 
 } Laser;
 

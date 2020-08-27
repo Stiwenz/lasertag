@@ -103,7 +103,7 @@ int main(void)
 		uint8_t currentButton = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0);
 		if (lastButton == 1 && currentButton == 0) {
 			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-			send_hex(0x1501C201, 32, &irTX);
+			send_hex(0x1501C201, 20, &irTX);
 
 		}
 		lastButton = currentButton;
