@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetQ1_2 Pin=T1-3
+Removed Pin From Net: NetName=NetBR1_1 Pin=T1-5
+Removed Pin From Net: NetName=NetD4_2 Pin=T1-6
+Added Room: Name=Analog
+Added Room: Name=MCU+ADC
+Added Room: Name=Power+RPI_conn

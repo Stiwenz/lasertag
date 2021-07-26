@@ -1,0 +1,23 @@
+Change Component Footprint: Designator=C1 Old Footprint=1608[0603] New Footprint=CAP 0603_1608
+Change Component Footprint: Designator=C2 Old Footprint=1608[0603] New Footprint=CAP 0603_1608
+Change Component Footprint: Designator=C10 Old Footprint=1608[0603] New Footprint=CAP 0603_1608
+Change Component Footprint: Designator=C11 Old Footprint=1608[0603] New Footprint=CAP 0603_1608
+Change Component Comment : Designator=C1 Old Comment=Cap Semi New Comment=10µF
+Change Component Comment : Designator=C2 Old Comment=Cap Semi New Comment=10µF
+Change Component Comment : Designator=C10 Old Comment=Cap Semi New Comment=10µF
+Change Component Comment : Designator=C11 Old Comment=Cap Semi New Comment=10µF
+Change component parameters: Designator = "C1" ("C1"); Footprint = "1608[0603]"; UniqueID = "\OQSDRHVY" ("\OQSDRHVY")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "1608[0603]"; UniqueID = "\VSJRBYUI" ("\VSJRBYUI")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "1608[0603]"; UniqueID = "\QQVVYGHE" ("\QQVVYGHE")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "1608[0603]"; UniqueID = "\QCDBWCTQ" ("\QCDBWCTQ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Added Room: Name=Analog
+Added Room: Name=MCU+ADC
+Added Room: Name=Power+RPI_conn

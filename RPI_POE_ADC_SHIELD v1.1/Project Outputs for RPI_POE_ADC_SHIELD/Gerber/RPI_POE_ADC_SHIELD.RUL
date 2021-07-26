@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\User\Desktop\RPI_POE_ADC_SHIELD\RPI_POE_ADC_SHIELD.PcbDoc
+RuleKind=Clearance|RuleName=ClearancePol|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_all|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width HSPEED ETH|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=SolderMaskExpansion|RuleName=SolderMask for VIA|Scope=Board|Minimum=-19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
