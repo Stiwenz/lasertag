@@ -1,0 +1,322 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+V_EXT Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=GND Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=+3V3 Pin=C9-2
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=+3V3 Pin=C10-2
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=DA1-2
+Removed Pin From Net: NetName=NetC7_2 Pin=DA1-3
+Removed Pin From Net: NetName=+3V3 Pin=DA1-4
+Removed Pin From Net: NetName=GND Pin=DA1-5
+Removed Pin From Net: NetName=ADC_LEFT Pin=DA1-13
+Removed Pin From Net: NetName=ADC_RIGHT Pin=DA1-14
+Removed Pin From Net: NetName=+3V3 Pin=FB3-2
+Removed Pin From Net: NetName=+V_EXT Pin=IC2-1
+Removed Pin From Net: NetName=GND Pin=IC2-2
+Removed Pin From Net: NetName=+V_EXT Pin=IC2-3
+Removed Pin From Net: NetName=+3V3 Pin=R6-1
+Removed Pin From Net: NetName=+3V3 Pin=R7-1
+Removed Pin From Net: NetName=+3V3 Pin=R8-1
+Removed Pin From Net: NetName=GND Pin=R9-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=GND Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=Y1-2
+Removed Member From Class: ClassName=ADC Member=C3
+Removed Member From Class: ClassName=ADC Member=C4
+Removed Member From Class: ClassName=ADC Member=C5
+Removed Member From Class: ClassName=ADC Member=C6
+Removed Member From Class: ClassName=ADC Member=C9
+Removed Member From Class: ClassName=ADC Member=C10
+Removed Member From Class: ClassName=ADC Member=C11
+Removed Member From Class: ClassName=ADC Member=C31
+Removed Member From Class: ClassName=ADC Member=DA1
+Removed Member From Class: ClassName=ADC Member=FB3
+Removed Member From Class: ClassName=ADC Member=R5
+Removed Member From Class: ClassName=ADC Member=R6
+Removed Member From Class: ClassName=ADC Member=R7
+Removed Member From Class: ClassName=ADC Member=R8
+Removed Member From Class: ClassName=ADC Member=R9
+Removed Member From Class: ClassName=ADC Member=R10
+Removed Member From Class: ClassName=ADC Member=R11
+Removed Member From Class: ClassName=ADC Member=R12
+Removed Member From Class: ClassName=ADC Member=Y1
+Change Component Footprint: Designator=IC2 Old Footprint=SOT95P280X145-5N New Footprint=SOP50P490X110-10N
+Change Component Footprint: Designator=IC4 Old Footprint=TI SOT-23-5 DBV New Footprint=SOT95P280X145-5N
+Change Component Footprint: Designator=IC6 Old Footprint=TI SOT-23-5 DBV New Footprint=SOT95P280X145-5N
+Change Component Comment : Designator=IC2 Old Comment=TPS76350DBVR New Comment=ADS1118IDGSR
+Change component parameters: Designator = "C1" ("C1"); Footprint = "CAP 0603_1608"; UniqueID = "\DFGYDUBT" ("\DFGYDUBT")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "CAP 0603_1608"; UniqueID = "\REYMISIJ" ("\REYMISIJ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7" ("C7"); Footprint = "CAP 0603_1608"; UniqueID = "\EATQUBZJ" ("\EATQUBZJ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8" ("C8"); Footprint = "CAP 0603_1608"; UniqueID = "\ZOTGUJSL" ("\ZOTGUJSL")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12" ("C12"); Footprint = "CAP 0603_1608"; UniqueID = "\DYZNQGLB" ("\DYZNQGLB")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13" ("C13"); Footprint = "CAP 0603_1608"; UniqueID = "\EPVCWALN" ("\EPVCWALN")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CAP 0603_1608"; UniqueID = "\BYBZGUAB" ("\BYBZGUAB")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CAP 0603_1608"; UniqueID = "\AWALOVXW" ("\AWALOVXW")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CAP 0603_1608"; UniqueID = "\ZHROAWJY" ("\ZHROAWJY")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "CAP 0603_1608"; UniqueID = "\JGODBFAZ" ("\JGODBFAZ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18" ("C18"); Footprint = "CAP 0603_1608"; UniqueID = "\JMPIFVEI" ("\JMPIFVEI")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAP 0603_1608"; UniqueID = "\DKFXSLIJ" ("\DKFXSLIJ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CAP 0603_1608"; UniqueID = "\NOFKFTYK" ("\NOFKFTYK")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C22" ("C22"); Footprint = "CAP 0603_1608"; UniqueID = "\HCPVHQTG" ("\HCPVHQTG")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23" ("C23"); Footprint = "CAP 0603_1608"; UniqueID = "\WYDLITXQ" ("\WYDLITXQ")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C24" ("C24"); Footprint = "CAP 0603_1608"; UniqueID = "\GXUSDXSL" ("\GXUSDXSL")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C25" ("C25"); Footprint = "CAP 0603_1608"; UniqueID = "\LEORBYLK" ("\LEORBYLK")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C27" ("C27"); Footprint = "CAP 0603_1608"; UniqueID = "\RQLOAHJA" ("\RQLOAHJA")
+Change component parameters (AddParameter): Name = "Part Number"; Value = "100X14W104MV4T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.1µF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C28" ("C28"); Footprint = "SMD-0805C"; UniqueID = "\DGWSLQIN" ("\DGWSLQIN")
+Change component parameters (AddParameter): Name = "@ qty"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Applications"; Value = "Boardflex Sensitive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheets"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "490-10919-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Factory Stock"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Soft Termination"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Image"; Value = "//media.digikey.com/Renders/Murata%20Renders/0805%20(2012%20Metric)%20.85mm.jpg"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Style"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics North America"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRJ21BR71A106KE01L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity Available"; Value = "6658"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "GRJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price (USD)"; Value = "0,69"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C29" ("C29"); Footprint = "SMD-0805C"; UniqueID = "\GRKMHYKH" ("\GRKMHYKH")
+Change component parameters (AddParameter): Name = "@ qty"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Applications"; Value = "Boardflex Sensitive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheets"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "490-10919-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Factory Stock"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Soft Termination"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Image"; Value = "//media.digikey.com/Renders/Murata%20Renders/0805%20(2012%20Metric)%20.85mm.jpg"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Style"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics North America"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRJ21BR71A106KE01L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity Available"; Value = "6658"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "GRJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price (USD)"; Value = "0,69"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C30" ("C30"); Footprint = "SMD-0805C"; UniqueID = "\GQJTJRDX" ("\GQJTJRDX")
+Change component parameters (AddParameter): Name = "@ qty"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Applications"; Value = "Boardflex Sensitive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheets"; Value = "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key Part Number"; Value = "490-10919-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Factory Stock"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Soft Termination"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Image"; Value = "//media.digikey.com/Renders/Murata%20Renders/0805%20(2012%20Metric)%20.85mm.jpg"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Spacing"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Style"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics North America"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "GRJ21BR71A106KE01L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Quantity Available"; Value = "6658"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "GRJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness (Max)"; Value = "0.057" (1.45mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price (USD)"; Value = "0,69"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC3" ("IC3"); Footprint = "ANALOG SOT-23-5 RJ-5"; UniqueID = "\ZCMBFZII" ("\ZCMBFZII")
+Change component parameters (AddParameter): Name = "Amplifier Type"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8541_8542_8544.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/analog-devices-inc/AD8541ARTZ-REEL7/AD8541ARTZ-REEL7CT-ND/813416"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Input Bias"; Value = "4pA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output / Channel"; Value = "30mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Supply"; Value = "45µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gain Bandwidth Product"; Value = "1MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "08.01.2020 23:39:15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Type"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "ReReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "AD8541ARTZ-REEL7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "0.92V/µs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "AD8541ARTZ-REEL7CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input Offset"; Value = "1mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "2.7V ~ 5.5V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC5" ("IC5"); Footprint = "ANALOG SOT-23-5 RJ-5"; UniqueID = "\HWVRQYYO" ("\HWVRQYYO")
+Change component parameters (AddParameter): Name = "Amplifier Type"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8541_8542_8544.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/analog-devices-inc/AD8541ARTZ-REEL7/AD8541ARTZ-REEL7CT-ND/813416"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Input Bias"; Value = "4pA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output / Channel"; Value = "30mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Supply"; Value = "45µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gain Bandwidth Product"; Value = "1MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "08.01.2020 23:39:15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Type"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "ReReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "AD8541ARTZ-REEL7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "0.92V/µs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "AD8541ARTZ-REEL7CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input Offset"; Value = "1mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "2.7V ~ 5.5V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC7" ("IC7"); Footprint = "ANALOG SOT-23-5 RJ-5"; UniqueID = "\EMOZWZFK" ("\EMOZWZFK")
+Change component parameters (AddParameter): Name = "Amplifier Type"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8541_8542_8544.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/analog-devices-inc/AD8541ARTZ-REEL7/AD8541ARTZ-REEL7CT-ND/813416"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Input Bias"; Value = "4pA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Output / Channel"; Value = "30mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current - Supply"; Value = "45µA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gain Bandwidth Product"; Value = "1MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "08.01.2020 23:39:15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Analog Devices Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-40°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Type"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "SC-74A, SOT-753"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "ReReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "AD8541ARTZ-REEL7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "9"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.00"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "0.92V/µs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Device Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "AD8541ARTZ-REEL7CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Input Offset"; Value = "1mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "2.7V ~ 5.5V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "IC2" ("IC2"); Footprint = "SOT95P280X145-5N"; UniqueID = "\APVYWKOQ" ("\APVYWKOQ")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "ADS1118IDGSR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/ads1118idgsr/texas-instruments?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.ti.com/lit/gpn/ads1118"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ADS1118IDGSR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "595-ADS1118IDGSR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1118IDGSR?qs=g5raLcSarOb4n6jVZI8bUw%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=FB1-1
+Added Pin To Net: NetName=GND Pin=IC2-3
+Added Pin To Net: NetName=ADC_RIGHT Pin=IC2-4
+Added Pin To Net: NetName=NetC7_2 Pin=IC2-5
+Added Pin To Net: NetName=ADC_LEFT Pin=IC2-6
+Added Pin To Net: NetName=NetC7_2 Pin=IC2-7
+Added Pin To Net: NetName=NetC7_2 Pin=IC2-8
+Change Net Name : Old Net Name=BCK New Net Name=SPI0_SCK
+Change Net Name : Old Net Name=DOUT New Net Name=SPI0_CS
+Change Net Name : Old Net Name=LRCK New Net Name=SPI0_MOSI
+Change Net Name : Old Net Name=SCKI New Net Name=SPI0_MISO
+Added Pin To Net: NetName=NetIC2_1 Pin=IC2-1
+Added Pin To Net: NetName=NetIC2_1 Pin=R3-2
+Added Net: Name=NetIC2_1
+Added Pin To Net: NetName=NetIC2_2 Pin=IC2-2
+Added Pin To Net: NetName=NetIC2_2 Pin=R4-2
+Added Net: Name=NetIC2_2
+Added Pin To Net: NetName=NetIC2_9 Pin=IC2-9
+Added Pin To Net: NetName=NetIC2_9 Pin=R1-2
+Added Net: Name=NetIC2_9
+Added Pin To Net: NetName=NetIC2_10 Pin=IC2-10
+Added Pin To Net: NetName=NetIC2_10 Pin=R2-2
+Added Net: Name=NetIC2_10
+Added Room: Name=ADC
+Added Room: Name=Analog
