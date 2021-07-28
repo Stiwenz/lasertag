@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=+V_EXT Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-3
+Removed Pin From Net: NetName=SPI0_CS Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-5
+Removed Pin From Net: NetName=SPI0_SCK Pin=P1-6
+Removed Pin From Net: NetName=GND Pin=P1-7
+Removed Pin From Net: NetName=SPI0_MOSI Pin=P1-8
+Removed Pin From Net: NetName=GND Pin=P1-9
+Removed Pin From Net: NetName=SPI0_MISO Pin=P1-10
+Removed Pin From Net: NetName=GND Pin=P1-MP1
+Removed Pin From Net: NetName=GND Pin=P1-MP2
+Removed Member From Class: ClassName=ADC Member=P1
+Added Room: Name=ADC
+Added Room: Name=Analog

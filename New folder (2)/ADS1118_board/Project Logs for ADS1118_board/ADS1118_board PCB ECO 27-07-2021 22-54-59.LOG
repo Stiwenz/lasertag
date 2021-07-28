@@ -1,0 +1,96 @@
+Added Component: Designator=X1(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SPI_MISO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X2(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SPI_MOSI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X3(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SPI_SCK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X4(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "SPI_CS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X5(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "POWER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=X6(PLS-1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ID"; Value = "IN-OUT pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KHADB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser p/n"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "GND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Комментарий"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Корпус"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Шаг"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SPI0_MISO Pin=X1-1
+Added Pin To Net: NetName=SPI0_MOSI Pin=X2-1
+Added Pin To Net: NetName=SPI0_SCK Pin=X3-1
+Added Pin To Net: NetName=SPI0_CS Pin=X4-1
+Added Pin To Net: NetName=+V_EXT Pin=X5-1
+Added Pin To Net: NetName=GND Pin=X6-1
+Added Member To Class: ClassName=ADC Member=Component X1 SPI_MISO
+Added Member To Class: ClassName=ADC Member=Component X2 SPI_MISO
+Added Member To Class: ClassName=ADC Member=Component X3 SPI_MISO
+Added Member To Class: ClassName=ADC Member=Component X4 SPI_MISO
+Added Member To Class: ClassName=ADC Member=Component X5 SPI_MISO
+Added Member To Class: ClassName=ADC Member=Component X6 SPI_MISO
